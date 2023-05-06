@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'skin-cancer-1'
+          app-name: 'AzureDeployment-example'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_308D50B5BCAA444B83F56AD6B8809AF8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B94C7F3C7F447FFB4241C18526B907E }}
